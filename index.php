@@ -16,6 +16,27 @@
         <header>
             <i class="bi bi-spotify"></i>
         </header>
+
+        <main>
+
+        <div v-else class="container">
+
+            <div class="cards-container d-flex align-content-stretch flex-wrap">
+                
+                <div class="card mx-2">
+                    <img :src="imageUrl" class="card-img-top p-3" :alt="title">
+                    <div class="card-body text-center">
+                        <h5 class="text-white fw-bold text-uppercase"> {{title}} </h5>
+                        <div class="card-text d-flex flex-column">
+                            <div>{{author}}</div>
+                            <div>{{year}}</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
     </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
