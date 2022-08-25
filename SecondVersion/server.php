@@ -16,7 +16,7 @@
         "year" => "1992"
       ],
       [
-        "poster" => "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/41JD3CW65HL.jpg",
+        "poster" => "https://images-na.ssl-images-amazon.com/images/I/41JD3CW65HL.jpg",
         "title" => "Ten's Summoner's Tales",
         "author" => "Sting",
         "genre" => "Pop",
@@ -30,7 +30,7 @@
         "year" => "2018"
       ],
       [
-        "poster" => "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/810nSIQOLiL._SY355_.jpg",
+        "poster" => "https://images-na.ssl-images-amazon.com/images/I/810nSIQOLiL._SY355_.jpg",
         "title" => "Brave new World",
         "author" => "Iron Maiden",
         "genre" => "Metal",
@@ -44,14 +44,14 @@
         "year" => "2002"
       ],
       [
-        "poster" => "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/51rggtPgmRL.jpg",
+        "poster" => "https://images-na.ssl-images-amazon.com/images/I/51rggtPgmRL.jpg",
         "title" => "Made in Japan",
         "author" => "Deep Purple",
         "genre" => "Rock",
         "year" => "1972"
       ],
       [
-        "poster" => "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/81r3FVfNG3L._SY355_.jpg",
+        "poster" => "https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg",
         "title" => "And Justice for All",
         "author" => "Metallica",
         "genre" => "Metal",
@@ -65,7 +65,7 @@
         "year" => "1994"
       ],
       [
-        "poster" => "https:\/\/m.media-amazon.com\/images\/I\/71K9CbNZPsL._SS500_.jpg",
+        "poster" => "https://m.media-amazon.com/images/I/71K9CbNZPsL._SS500_.jpg",
         "title" => "Bad",
         "author" => "Michael Jackson",
         "genre" => "Pop",
