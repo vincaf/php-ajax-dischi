@@ -1,0 +1,37 @@
+header{
+    background-color: #2e3a46;
+}
+
+header i{
+    font-size: 40px;
+    padding: 10px 20px;
+    color: #1dd65f;
+}
+
+main{
+    background-color: #1e2d3b;
+    height: 112vh;
+}
+    
+main .container{
+        max-width: 1000px;
+}
+
+main .cards-container{
+    padding: 30px 0;
+}
+
+.card{
+    width: 180px;
+    margin-bottom: 20px;
+    background-color: #2e3a46;
+}
+    
+.card .card-body{
+    padding: 0 10px 10px 10px;
+}
+
+.card .card-text{
+    color: #747a7c;
+    font-size: 14px;
+}
