@@ -4,6 +4,7 @@ const app = new Vue({
       discs: [],
       selectedGenre: "",
       genres: [],
+      filteredDiscs: [],
     },
 
     methods: {
@@ -13,6 +14,7 @@ const app = new Vue({
             this.discs = result.data;
             console.log(this.discs);
             this.filteredDiscs = result.data;
+            console.log(this.filteredDiscs);
             this.genres = this.getUniqueGenres(this.discs);
          })
       },
