@@ -21,6 +21,11 @@
 
         <div class="container">
 
+            <!-- Milestone 1 -->
+            <!-- <ul v-for="disc in discs">
+                    <li class="text-white">{{disc.title}}</li>
+                </ul> -->
+
             <div class="cards-container d-flex align-content-stretch flex-wrap">
 
                 <div class="card mx-1" v-for="disc in discs">

@@ -6,7 +6,7 @@ const app = new Vue({
 
     methods: {
       getDiscs() {
-         axios.get('http://localhost/php-ajax-dischi/FirstVersion/server.php')
+         axios.get('http://localhost/php-ajax-dischi/SecondVersion/server.php')
          .then(result => {
             this.discs = result.data;
             console.log(this.discs);
