@@ -26,6 +26,15 @@
                     <li class="text-white">{{disc.title}}</li>
                 </ul> -->
 
+            <div class="d-flex justify-content-center">
+                <select class="form-select w-25 mt-4" aria-label="Default select example" v-model="selectedGenre">
+                    <option selected value="">Tutti i generi</option>
+                    <option v-for="(genre, index) in genres" :key='index' :value="genre.toLowerCase()">
+                        {{ genre }}
+                    </option>
+                </select>
+            </div>
+
             <div class="cards-container d-flex align-content-stretch flex-wrap">
 
                 <div class="card mx-1" v-for="disc in discs">
