@@ -22,14 +22,14 @@
         <div class="container">
 
             <div class="cards-container d-flex align-content-stretch flex-wrap">
-                
-                <div class="card mx-2">
-                    <img src="" class="card-img-top p-3" alt="title">
+
+                <div class="card mx-1" v-for="disc in discs">
+                    <img :src="disc.poster" class="card-img-top p-3" :alt="disc.title">
                     <div class="card-body text-center">
-                        <h5 class="text-white fw-bold text-uppercase"> title </h5>
+                        <h5 class="text-white fw-bold text-uppercase"> {{disc.title}} </h5>
                         <div class="card-text d-flex flex-column">
-                            <div>author</div>
-                            <div>year</div>
+                            <div>{{disc.author}}</div>
+                            <div>{{disc.year}}</div>
                         </div>
                     </div>
                 </div>
