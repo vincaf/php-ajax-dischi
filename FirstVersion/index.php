@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.37/vue.cjs.min.js" integrity="sha512-4ztiRs4Iu216VkGake07ojPy+Jp5LpaRV8WgGblQIZj/6O3st4NYucCsWKZ/RWyoBgJu941+PXBFnqgVAaDPgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>PHP Dischi</title>
 </head>
@@ -19,17 +19,17 @@
 
         <main>
 
-        <div v-else class="container">
+        <div class="container">
 
             <div class="cards-container d-flex align-content-stretch flex-wrap">
                 
                 <div class="card mx-2">
-                    <img :src="imageUrl" class="card-img-top p-3" :alt="title">
+                    <img src="" class="card-img-top p-3" alt="title">
                     <div class="card-body text-center">
-                        <h5 class="text-white fw-bold text-uppercase"> {{title}} </h5>
+                        <h5 class="text-white fw-bold text-uppercase"> title </h5>
                         <div class="card-text d-flex flex-column">
-                            <div>{{author}}</div>
-                            <div>{{year}}</div>
+                            <div>author</div>
+                            <div>year</div>
                         </div>
                     </div>
                 </div>
@@ -38,6 +38,6 @@
         </div>
     </main>
     </div>
-    <script type="text/javascript" src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
